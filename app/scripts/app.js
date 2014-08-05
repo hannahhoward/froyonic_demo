@@ -82,3 +82,15 @@ yogurtApp.controller('ShowYogurtCtrl', ['$scope', 'Yogurt', '$stateParams', func
     });
 }]);
 
+
+yogurtApp.controller('NewYogurtCtrl', ['$scope', 'Yogurt', '$state', function($scope, Yogurt, $state) {
+  $scope.newYogurt = new Yogurt();
+
+  $scope.save = function () {
+    $scope.newYogurt.$save(function(yogurt) {
+      $state.go('index');
+    });
+  };
+}])
+
+

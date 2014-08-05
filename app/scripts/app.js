@@ -82,6 +82,17 @@ yogurtApp.controller('ShowYogurtCtrl', ['$scope', 'Yogurt', '$stateParams', func
     });
 }]);
 
+yogurtApp.controller('EditYogurtCtrl', ['$scope', 'Yogurt', '$stateParams', '$state', function($scope, Yogurt, $stateParams, $state) {
+  Yogurt.get({id: $stateParams.id}, function(yogurt) {
+    $scope.yogurt = yogurt;
+  });
+
+  $scope.update = function() {
+    $scope.yogurt.$update(function() {
+      $state.go('index');
+    });
+  };
+}]);
 
 yogurtApp.controller('NewYogurtCtrl', ['$scope', 'Yogurt', '$state', function($scope, Yogurt, $state) {
   $scope.newYogurt = new Yogurt();
@@ -93,4 +104,13 @@ yogurtApp.controller('NewYogurtCtrl', ['$scope', 'Yogurt', '$state', function($s
   };
 }])
 
+yogurtApp.directive('yogurtFields', function() {
+  return {
+    restrict: 'E',
+    scope: {
+      yogurt: "="
+    },
+    templateUrl: 'templates/yogurt-fields.html'
+  };
+});
 

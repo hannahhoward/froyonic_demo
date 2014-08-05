@@ -57,6 +57,22 @@ yogurtApp.controller('YogurtsCtrl', ['$scope', 'Yogurt', function($scope, Yogurt
       $scope.yogurts = yogurts;
     });
 
+    $scope.shouldShowDelete = false;
+
+    $scope.toggleDelete = function () {
+      if ($scope.shouldShowDelete) {
+        $scope.shouldShowDelete = false;
+      } else {
+        $scope.shouldShowDelete = true;
+      }
+    };
+
+    $scope.delete = function (yogurt) {
+      yogurt.$delete(function() {
+        var position = $scope.yogurts.indexOf(yogurt);
+        $scope.yogurts.splice(position, 1);
+      });
+    }
 }]);
 
 

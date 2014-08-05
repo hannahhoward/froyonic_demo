@@ -1,51 +1,42 @@
-objc[48290]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
-2014-08-04 23:05:49.198 Froyonic[48290:70b] Cannot find executable for CFBundle 0xa676ff0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
-2014-08-04 23:05:49.209 Froyonic[48290:70b] Cannot find executable for CFBundle 0xa68e480 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
-2014-08-04 23:05:49.265 Froyonic[48290:70b] Multi-tasking -> Device: YES, App: YES
-2014-08-04 23:05:49.314 Froyonic[48290:70b] Unlimited access to network resources
-2014-08-04 23:05:49.609 Froyonic[48290:70b] Resetting plugins due to page load.
-2014-08-04 23:05:49.729 Froyonic[48290:70b] Finished load of: file:///Users/hannah/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5CC269FF-7F44-42B4-8D2B-EBBD7538CDC3/Froyonic.app/www/index.html
-2014-08-04 23:05:49.784 Froyonic[48290:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
-2014-08-04 23:05:49.784 Froyonic[48290:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
-2014-08-04 23:05:49.784 Froyonic[48290:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
-  "Device532642789",
-  "Device",
-  "getDeviceInfo",
-  [
-
-  ]
-]
-objc[48464]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
-2014-08-04 23:06:35.856 Froyonic[48464:70b] Cannot find executable for CFBundle 0xa5abda0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
-2014-08-04 23:06:35.859 Froyonic[48464:70b] Cannot find executable for CFBundle 0xcfb3760 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
-2014-08-04 23:06:35.891 Froyonic[48464:70b] Multi-tasking -> Device: YES, App: YES
-2014-08-04 23:06:35.895 Froyonic[48464:70b] Unlimited access to network resources
-2014-08-04 23:06:35.969 Froyonic[48464:70b] Resetting plugins due to page load.
-2014-08-04 23:06:36.026 Froyonic[48464:70b] Finished load of: file:///Users/hannah/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5CC269FF-7F44-42B4-8D2B-EBBD7538CDC3/Froyonic.app/www/index.html
-2014-08-04 23:06:36.053 Froyonic[48464:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
-2014-08-04 23:06:36.054 Froyonic[48464:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
-2014-08-04 23:06:36.054 Froyonic[48464:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
-  "Device1200516228",
-  "Device",
-  "getDeviceInfo",
-  [
-
-  ]
-]
-objc[48815]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
-2014-08-04 23:08:23.367 Froyonic[48815:70b] Cannot find executable for CFBundle 0xc32ea70 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
-2014-08-04 23:08:23.370 Froyonic[48815:70b] Cannot find executable for CFBundle 0xa62e170 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
-2014-08-04 23:08:23.395 Froyonic[48815:70b] Multi-tasking -> Device: YES, App: YES
-2014-08-04 23:08:23.400 Froyonic[48815:70b] Unlimited access to network resources
-2014-08-04 23:08:23.491 Froyonic[48815:70b] Resetting plugins due to page load.
-2014-08-04 23:08:23.547 Froyonic[48815:70b] Finished load of: file:///Users/hannah/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5CC269FF-7F44-42B4-8D2B-EBBD7538CDC3/Froyonic.app/www/index.html
-2014-08-04 23:08:23.571 Froyonic[48815:70b] CDVPlugin class CDVDevice (pluginName: Device) does not exist.
-2014-08-04 23:08:23.572 Froyonic[48815:70b] ERROR: Plugin 'Device' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
-2014-08-04 23:08:23.572 Froyonic[48815:70b] -[CDVCommandQueue executePending] [Line 158] FAILED pluginJSON = [
-  "Device822275115",
-  "Device",
-  "getDeviceInfo",
-  [
-
-  ]
-]
+objc[29062]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-20 12:31:40.110 Froyonic[29062:70b] Cannot find executable for CFBundle 0xa396e50 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-20 12:31:40.115 Froyonic[29062:70b] Cannot find executable for CFBundle 0xa585c60 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-20 12:31:40.152 Froyonic[29062:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-20 12:31:40.157 Froyonic[29062:70b] Unlimited access to network resources
+2014-06-20 12:31:40.229 Froyonic[29062:70b] Resetting plugins due to page load.
+2014-06-20 12:31:40.381 Froyonic[29062:70b] Finished load of: file:///Users/hannah/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5CC269FF-7F44-42B4-8D2B-EBBD7538CDC3/Froyonic.app/www/index.html#/yogurts
+objc[33205]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-20 14:48:55.453 Froyonic[33205:70b] Cannot find executable for CFBundle 0xa24de00 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-20 14:48:55.462 Froyonic[33205:70b] Cannot find executable for CFBundle 0xa34d720 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-20 14:48:55.484 Froyonic[33205:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-20 14:48:55.489 Froyonic[33205:70b] Unlimited access to network resources
+2014-06-20 14:48:55.546 Froyonic[33205:70b] Resetting plugins due to page load.
+2014-06-20 14:48:55.694 Froyonic[33205:70b] Finished load of: file:///Users/hannah/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5CC269FF-7F44-42B4-8D2B-EBBD7538CDC3/Froyonic.app/www/index.html#/yogurts
+objc[34238]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-20 15:34:23.074 Froyonic[34238:70b] Cannot find executable for CFBundle 0xf664390 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-20 15:34:23.082 Froyonic[34238:70b] Cannot find executable for CFBundle 0xa673370 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-20 15:34:23.102 Froyonic[34238:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-20 15:34:23.107 Froyonic[34238:70b] Unlimited access to network resources
+2014-06-20 15:34:23.165 Froyonic[34238:70b] Resetting plugins due to page load.
+2014-06-20 15:34:23.297 Froyonic[34238:70b] Finished load of: file:///Users/hannah/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5CC269FF-7F44-42B4-8D2B-EBBD7538CDC3/Froyonic.app/www/index.html#/yogurts
+objc[43596]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-08-04 13:55:15.873 Froyonic[43596:70b] Cannot find executable for CFBundle 0xaa369d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-08-04 13:55:15.888 Froyonic[43596:70b] Cannot find executable for CFBundle 0xa746910 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-08-04 13:55:15.949 Froyonic[43596:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-04 13:55:16.020 Froyonic[43596:70b] Unlimited access to network resources
+2014-08-04 13:55:16.320 Froyonic[43596:70b] Resetting plugins due to page load.
+2014-08-04 13:55:16.577 Froyonic[43596:70b] Finished load of: file:///Users/hannah/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5CC269FF-7F44-42B4-8D2B-EBBD7538CDC3/Froyonic.app/www/index.html#/yogurts
+objc[50376]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-08-04 23:40:57.682 Froyonic[50376:70b] Cannot find executable for CFBundle 0xa346430 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-08-04 23:40:57.686 Froyonic[50376:70b] Cannot find executable for CFBundle 0xa248db0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-08-04 23:40:57.705 Froyonic[50376:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-04 23:40:57.709 Froyonic[50376:70b] Unlimited access to network resources
+2014-08-04 23:40:57.756 Froyonic[50376:70b] Resetting plugins due to page load.
+2014-08-04 23:40:57.882 Froyonic[50376:70b] Finished load of: file:///Users/hannah/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5CC269FF-7F44-42B4-8D2B-EBBD7538CDC3/Froyonic.app/www/index.html#/yogurts
+objc[51476]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-08-04 23:51:48.563 Froyonic[51476:70b] Cannot find executable for CFBundle 0xa47f720 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-08-04 23:51:48.567 Froyonic[51476:70b] Cannot find executable for CFBundle 0xf5563f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-08-04 23:51:48.585 Froyonic[51476:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-04 23:51:48.590 Froyonic[51476:70b] Unlimited access to network resources
+2014-08-04 23:51:48.638 Froyonic[51476:70b] Resetting plugins due to page load.
+2014-08-04 23:51:48.762 Froyonic[51476:70b] Finished load of: file:///Users/hannah/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5CC269FF-7F44-42B4-8D2B-EBBD7538CDC3/Froyonic.app/www/index.html#/yogurts

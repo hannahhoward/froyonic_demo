@@ -75,4 +75,10 @@ yogurtApp.controller('YogurtsCtrl', ['$scope', 'Yogurt', function($scope, Yogurt
     }
 }]);
 
+yogurtApp.controller('ShowYogurtCtrl', ['$scope', 'Yogurt', '$stateParams', function($scope, Yogurt, $stateParams) {
+
+    Yogurt.get({id: $stateParams.id}, function(yogurt) {
+      $scope.yogurt = yogurt;
+    });
+}]);
 

@@ -9,7 +9,8 @@
     <ion-list show-delete="shouldShowDelete">
       <ion-item ng-repeat="yogurt in yogurts" item="item">
         <p>{{yogurt.quantity}} oz of {{yogurt.flavor}} yogurt with {{yogurt.topping}}</p>
-        <ion-option-button class="button-positive">
+        <ion-option-button class="button-positive"
+                     ui-sref="show({id: yogurt.id})">
             View
         </ion-option-button>
         <ion-option-button class="button-info">

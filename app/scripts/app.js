@@ -4,7 +4,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-var yogurtApp = angular.module('Froyonic', ['ionic'])
+var yogurtApp = angular.module('Froyonic', ['ionic', 'ngResource'])
 .config( function($stateProvider, $urlRouterProvider, $httpProvider){
   var defaults = $httpProvider.defaults.headers;
 
@@ -44,6 +44,19 @@ var yogurtApp = angular.module('Froyonic', ['ionic'])
   });
 });
 
-
-yogurtApp.controller('YogurtsCtrl', ['$scope', function($scope) {
+yogurtApp.factory('Yogurt', ['$resource', function($resource) {
+  return $resource('https://froyoserver.herokuapp.com/yogurts/:id',
+     {id: '@id'},
+     {update: { method: 'PATCH'}});
 }]);
+
+yogurtApp.controller('YogurtsCtrl', ['$scope', 'Yogurt', function($scope, Yogurt) {
+    $scope.yogurts= [];
+
+    Yogurt.query(function(yogurts) {
+      $scope.yogurts = yogurts;
+    });
+
+}]);
+
+

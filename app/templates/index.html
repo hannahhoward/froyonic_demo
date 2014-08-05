@@ -6,6 +6,17 @@
     </button>
   </ion-nav-buttons>
   <ion-content>
-    <h1>Welcome!!</h1>
+    <ion-list>
+      <ion-item ng-repeat="yogurt in yogurts" item="item">
+        <p>{{yogurt.quantity}} oz of {{yogurt.flavor}} yogurt with {{yogurt.topping}}</p>
+        <ion-option-button class="button-positive">
+            View
+        </ion-option-button>
+        <ion-option-button class="button-info"
+                         ui-sref="edit({id: yogurt.id})">
+            Edit
+        </ion-option-button>
+     </ion-item>
+    </ion-list>
   <ion-content>
 </ion-view>

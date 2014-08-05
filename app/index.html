@@ -19,19 +19,17 @@
 
   <body ng-app="Froyonic">
 
-    <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
-      </ion-header-bar>
-      <ion-content class="has-header">
-      </ion-content>
+    <ion-nav-bar class="nav-title-slide-ios7 bar-positive">
+      <ion-nav-back-button class="button-icon ion-arrow-left-c">
+      </ion-nav-back-button>
+    </ion-nav-bar>
 
-      <ion-footer-bar align-title="center">
+    <ion-nav-view animation="slide-left-right"></ion-nav-view>
 
-        <h1 class="title">Froyonic <i class="icon ion-icecream"></i></h1>
-      </ion-footer-bar>
+    <ion-footer-bar align-title="center">
 
-    </ion-pane>
+      <h1 class="title">Froyonic <i class="icon ion-icecream"></i></h1>
+    </ion-footer-bar>
 
     <!-- build:js scripts/vendor.js -->
     <!-- <script src="vendor/someContribJs.js"></script> -->

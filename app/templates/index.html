@@ -1,26 +1,11 @@
 <ion-view title="Yogurts">
   <ion-nav-buttons side="right">
-    <button class="button button-icon icon ion-ios7-minus-outline" ng-click="toggleDelete();">
+    <button class="button button-icon icon ion-ios7-minus-outline">
     </button>
-    <button class="button button-icon icon ion-ios7-plus-outline" ui-sref="new">
+    <button class="button button-icon icon ion-ios7-plus-outline">
     </button>
   </ion-nav-buttons>
   <ion-content>
-    <ion-list show-delete="shouldShowDelete">
-      <ion-item ng-repeat="yogurt in yogurts" item="item">
-        <p>{{yogurt.quantity}} oz of {{yogurt.flavor}} yogurt with {{yogurt.topping}}</p>
-        <ion-option-button class="button-positive"
-                     ui-sref="show({id: yogurt.id})">
-            View
-        </ion-option-button>
-        <ion-option-button class="button-info"
-                         ui-sref="edit({id: yogurt.id})">
-            Edit
-        </ion-option-button>
-        <ion-delete-button class="ion-minus-circled"
-                         ng-click="delete(yogurt)">
-        </ion-delete-button>
-     </ion-item>
-    </ion-list>
+    <h1>Welcome!!</h1>
   <ion-content>
 </ion-view>
